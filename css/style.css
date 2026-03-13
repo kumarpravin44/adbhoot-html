@@ -110,6 +110,9 @@ img{
 .video-img {
     position: relative;
 }
+.video-img img {
+    width: 100%;
+}
 
 .video-overlay {
     position: absolute;
