@@ -16,3 +16,5 @@ $(window).scroll(function(){
   if (scroll >= 900) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
 });
+
+
