@@ -49,10 +49,13 @@ transform:rotate(-45deg) translate(5px,-5px);
 
 .container{
 
-    max-width: 1577px;
-    margin: 0 auto;
-    padding: 0 15px;
+max-width: 1577px;
 
+margin: 0 auto;
+
+padding: 0 15px;
+
+position: relative;
 }
 
 
@@ -343,7 +346,7 @@ transform:scale(1.08);
 
 
 
-.footer{background:#d6a500;padding: 70px 0 160px;color:white;position: relative;}
+.footer{background:#d6a500;padding: 70px 0;color:white;position: relative;}
 
 .footer-container{
 display:flex;
@@ -372,9 +375,10 @@ transform:scale(1.1);
 .footer-side-img {
     max-width: 60px;
     position: absolute;
-    bottom: 0;
-    left: -13px;
+    bottom: -90px;
+    right: 79px;
     z-index: 9;
+    transform: rotate(90deg);
 }
 
 .hero-video-container {
@@ -392,20 +396,20 @@ transform:scale(1.1);
 .purpose-sec .footer-side-img {
     transform: rotate(90deg);
     left: auto;
-    right: 8.3%;
-    bottom: -90px;
+    right: 79px;
+    bottom: -140px;
 }
 
 .site-header2 .footer-side-img, .creative-hero .footer-side-img {
     transform: rotate(90deg);
-    left: 40%;
+    right: 79px;
     bottom: -90px;
     z-index: 99;
 }
 
 .media-sec{
    
-background-image:url("../images/media.png");
+/* background-image:url("../images/media.png"); */
    
 background-size:cover;
    
@@ -733,6 +737,10 @@ height: 100vh;
 
 }
 
+.banner-main{
+    height: 90vh;
+}
+
 
 /* TEXT */
 
@@ -816,18 +824,12 @@ letter-spacing: 1px;
     background-image: url("../images/award-bg-line.png");
     width: 100%;
     height: 100%;
-    left: 0;
+    left: 3px;
     right: 0;
-
     top: -52px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
-
-    top: -43px;
-    background-size: contain;
-    background-repeat: no-repeat;
-
 }
 
 /* .media-logo img {
