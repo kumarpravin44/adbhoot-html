@@ -8,7 +8,7 @@ menu.classList.toggle("active");
 
 });
 
-<<<<<<< HEAD
+
 // Dropdown functionality for mobile
 const dropdowns = document.querySelectorAll('.dropdown');
 
@@ -23,18 +23,15 @@ dropdowns.forEach(dropdown => {
     });
 });
 
-=======
->>>>>>> ff9abeac689258ab5faa1790d8ff0daf3f5f77d6
+
 
 $(window).scroll(function(){
   var sticky = $('.creative-nav'),
       scroll = $(window).scrollTop();
 
-<<<<<<< HEAD
+
   if (scroll >= 1500) sticky.addClass('fixed');
-=======
-  if (scroll >= 900) sticky.addClass('fixed');
->>>>>>> ff9abeac689258ab5faa1790d8ff0daf3f5f77d6
+
   else sticky.removeClass('fixed');
 });
 
