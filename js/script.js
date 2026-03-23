@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
   video.addEventListener("ended", function () {
     video.style.display = "none";
     thumbnail.style.display = "block";
-    overlay.style.display = "block";
+    overlay.style.display = "flex";
   });
 
 });
