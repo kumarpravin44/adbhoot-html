@@ -346,7 +346,7 @@ transform:scale(1.08);
 
 
 
-.footer{background:#d6a500;padding: 70px 0;color:white;position: relative;}
+.footer{background:#d6a500;padding: 70px 0 400px;color:white;position: relative;}
 
 .footer-container{
 display:flex;
@@ -373,12 +373,13 @@ transform:scale(1.1);
 }
 
 .footer-side-img {
-    max-width: 60px;
+    max-width: 200px;
     position: absolute;
-    bottom: -90px;
-    right: 79px;
+    bottom: 240px;
+    right: 0;
     z-index: 9;
-    transform: rotate(90deg);
+    left: 0;
+    margin:  0 auto;
 }
 
 .hero-video-container {
@@ -394,17 +395,16 @@ transform:scale(1.1);
 
 
 .purpose-sec .footer-side-img {
-    transform: rotate(90deg);
     left: auto;
-    right: 79px;
-    bottom: -140px;
+    right: 16px;
+    bottom: -112px;
 }
 
 .site-header2 .footer-side-img, .creative-hero .footer-side-img {
-    transform: rotate(90deg);
-    right: 79px;
-    bottom: -90px;
+    left: 35%;
+    bottom: -62px;
     z-index: 99;
+    margin: 0;
 }
 
 .media-sec{
@@ -425,16 +425,14 @@ overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
-
     padding-left: 19%;
     position: relative;
-    margin-top: -32px;
-
+    margin-top: -29px;
 }
 
 .media-coverage-container::after{
     content: '';
-    background-image:url("../images/line-bg.png");
+    background-image:url("../images/line-bg-old.png");
     background-size: contain;
     background-position:center;
     background-repeat: no-repeat;
@@ -474,6 +472,8 @@ min-height:100vh;
 /* justify-content:center; */
 
 /* box-shadow: 0 0 20px #00000073; */
+
+/* overflow: hidden; */
 }
 
 
@@ -824,9 +824,9 @@ letter-spacing: 1px;
     background-image: url("../images/award-bg-line.png");
     width: 100%;
     height: 100%;
-    left: 3px;
+    left: 0;
     right: 0;
-    top: -52px;
+    top: -56px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
@@ -1108,12 +1108,20 @@ body {
     
 }
 
-.curve-line{width:100%;position:absolute;top: 205px;right: -84%;transform: rotate(49deg);}
+.curve-line{width:100%;position:absolute;top: 126px;right: -85%;transform: rotate(49deg);}
 
 .curve-line svg{
 width:100%;
 height:200px;
 }
 
-
+.footer-bottom:before {
+    content: '';
+    border-bottom: 1px solid #000;
+    position: absolute;
+    bottom: 260px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
 
