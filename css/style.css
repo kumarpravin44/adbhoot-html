@@ -373,9 +373,9 @@ transform:scale(1.1);
 }
 
 .footer-side-img {
-    max-width: 200px;
+    max-width: 150px;
     position: absolute;
-    bottom: 240px;
+    bottom: 244px;
     right: 0;
     z-index: 9;
     left: 0;
@@ -396,13 +396,13 @@ transform:scale(1.1);
 
 .purpose-sec .footer-side-img {
     left: auto;
-    right: 16px;
-    bottom: -112px;
+    right: 36px;
+    bottom: -97px;
 }
 
 .site-header2 .footer-side-img, .creative-hero .footer-side-img {
     left: 35%;
-    bottom: -62px;
+    bottom: -47px;
     z-index: 99;
     margin: 0;
 }
