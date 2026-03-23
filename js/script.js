@@ -36,3 +36,27 @@ $(window).scroll(function(){
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+
+  const container = document.getElementById("videoContainer");
+  const video = document.getElementById("myVideo");
+  const thumbnail = document.getElementById("thumbnail");
+  const overlay = document.getElementById("overlay");
+
+  container.addEventListener("click", function () {
+    thumbnail.style.display = "none";
+    overlay.style.display = "none";
+    video.style.display = "block";
+    video.play();
+  });
+
+  video.addEventListener("ended", function () {
+    video.style.display = "none";
+    thumbnail.style.display = "block";
+    overlay.style.display = "block";
+  });
+
+});
+
+
+
