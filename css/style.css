@@ -422,9 +422,6 @@ overflow: hidden;
 
 
 .media-coverage-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -15px;
     padding-left: 19%;
     position: relative;
     margin-top: -29px;
@@ -720,21 +717,17 @@ list-style:none;
 
 .creative-container{
 
-max-width:1400px;
+max-width: 1577px;
 
 margin:auto;
 
-
 padding:120px 20px;
-
 
 width:100%;
 
 position: relative;
 
-
 height: 100vh;
-
 }
 
 .banner-main{
@@ -1125,3 +1118,59 @@ height:200px;
     right: 0;
 }
 
+
+.creative-container.about-main {
+    padding: 0 20px;
+}
+
+.about-main .creative-text p {
+    font-size: 17px;
+}
+.creative-text {
+    max-width: 850px;
+}
+
+.blue-txt{
+    color: #246CC1;
+}
+.sec-padding-half{
+    padding: 50px 0;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    display: block !important;
+    background: #fff;
+    box-shadow: 0 0 13px #aeaeae;
+    margin-top: -17px;
+}
+
+.owl-carousel .owl-nav button.owl-next span, .owl-carousel .owl-nav button.owl-prev span {
+    font-size: 34px;
+    padding: 0 !important;
+    color: #000;
+    position: relative;
+    top: -3px;
+    line-height: 1;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+    border: 0 solid #000;
+    border-radius: 100%
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+    border: 0 solid #000;
+    border-radius: 100%
+}
+.media-coverage-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    position: relative;
+}
